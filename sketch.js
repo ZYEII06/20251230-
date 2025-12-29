@@ -104,7 +104,7 @@ function preload() {
   tomAttack = loadImage('Tom/attack/a.png');
   tomClimb = loadImage('Tom/climb/c.png');
   jerryWalk = loadImage('jerry/walk/w.png');
-  jerryJump = loadImage('jerry/jump/j.png'); // 載入 Jerry 跳躍圖片
+  // jerryJump = loadImage('jerry/jump/j.png'); // 暫時註解掉，若檔案不存在會導致 404 錯誤
   enemiesRide = loadImage('enemies/ride/r.png'); // 載入 Enemies 圖片
   dogSprite = loadImage('Dog/d.png'); // 載入 Dog 圖片
   womanWalk = loadImage('woman/walk/w.png'); // 載入 Woman 走路圖片
